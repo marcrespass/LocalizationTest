@@ -17,7 +17,6 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		D30C3B522B07F8F3003294E2 /* Main2VC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = Main2VC.xib; sourceTree = "<group>"; };
 		D30C3B542B07F903003294E2 /* LocalizationTest-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "LocalizationTest-Bridging-Header.h"; sourceTree = "<group>"; };
 		D30C3B552B07F903003294E2 /* Main2VC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Main2VC.h; sourceTree = "<group>"; };
 		D30C3B562B07F903003294E2 /* Main2VC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Main2VC.m; sourceTree = "<group>"; };
@@ -71,7 +70,6 @@
 				D37B1BFA2B07E21E00FE0C89 /* MainVC.xib */,
 				D30C3B552B07F903003294E2 /* Main2VC.h */,
 				D30C3B562B07F903003294E2 /* Main2VC.m */,
-				D30C3B522B07F8F3003294E2 /* Main2VC.xib */,
 			);
 			path = LocalizationTest;
 			sourceTree = "<group>";
@@ -119,6 +117,7 @@
 			knownRegions = (
 				en,
 				Base,
+				es,
 			);
 			mainGroup = D37B1BDE2B07E17700FE0C89;
 			productRefGroup = D37B1BE82B07E17700FE0C89 /* Products */;

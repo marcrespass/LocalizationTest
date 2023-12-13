@@ -35,22 +35,22 @@
 - (void)viewDidLoad;
 {
     [super viewDidLoad];
-    NSInteger many = 3;
-    NSInteger one = 1;
+    long long many = 3;
+    long long one = 1;
 
-    NSString *string1 = [NSString localizedStringWithFormat:NSLocalizedString(@"%lld Strawberry", @""), (long long)many];
+    NSString *string1 = [NSString localizedStringWithFormat:NSLocalizedString(@"There are %lld strawberries", @""), many];
     self.localizedField1.stringValue = string1;
 
-    NSString *string2 = [NSString localizedStringWithFormat:NSLocalizedString(@"%lld Strawberry", @""), (long long)one];
+    NSString *string2 = [NSString localizedStringWithFormat:NSLocalizedString(@"There are %lld strawberries", @""), one];
     self.localizedField2.stringValue = string2;
 
-    NSString *string3 = [NSString localizedStringWithFormat:NSLocalizedString(@"%lld Strawberry, %lld Apple", @""), (long long)many, (long long)many];
+    NSString *string3 = [NSString localizedStringWithFormat:NSLocalizedString(@"There are %lld strawberries and %lld apples", @""), many, many];
     self.localizedField3.stringValue = string3;
 
-    NSString *string4 = [NSString localizedStringWithFormat:NSLocalizedString(@"%lld Strawberry, %lld Apple", @""), (long long)one, (long long)one];
+    NSString *string4 = [NSString localizedStringWithFormat:NSLocalizedString(@"There are %lld strawberries and %lld apples", @""), one, one];
     self.localizedField4.stringValue = string4;
 
-    NSString *string5 = [NSString localizedStringWithFormat:NSLocalizedString(@"%lld Strawberry, %lld Apple", @""), (long long)one, (long long)many];
+    NSString *string5 = [NSString localizedStringWithFormat:NSLocalizedString(@"There are %lld strawberries and %lld apples", @""), one, many];
     self.localizedField5.stringValue = string5;
 }
 

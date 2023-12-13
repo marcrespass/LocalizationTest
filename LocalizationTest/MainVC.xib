@@ -21,7 +21,7 @@
             <rect key="frame" x="0.0" y="0.0" width="226" height="311"/>
             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
             <subviews>
-                <textField focusRingType="none" horizontalHuggingPriority="251" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="Dm0-0a-Om4">
+                <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="Dm0-0a-Om4">
                     <rect key="frame" x="18" y="260" width="190" height="31"/>
                     <textFieldCell key="cell" lineBreakMode="clipping" title="Localization Test" id="tF5-so-P0N">
                         <font key="font" textStyle="largeTitle" name=".SFNS-Regular"/>
@@ -29,7 +29,7 @@
                         <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
                     </textFieldCell>
                 </textField>
-                <textField focusRingType="none" horizontalHuggingPriority="251" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="7Vg-yO-0uu" userLabel="LocalizedLabel1">
+                <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="7Vg-yO-0uu" userLabel="LocalizedLabel1">
                     <rect key="frame" x="18" y="236" width="190" height="16"/>
                     <textFieldCell key="cell" lineBreakMode="clipping" title="Localized string many" id="i7C-x6-r2L">
                         <font key="font" usesAppearanceFont="YES"/>
@@ -37,7 +37,7 @@
                         <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
                     </textFieldCell>
                 </textField>
-                <textField focusRingType="none" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="TNc-93-cvK" userLabel="localizedField1">
+                <textField verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="TNc-93-cvK" userLabel="localizedField1">
                     <rect key="frame" x="30" y="212" width="178" height="16"/>
                     <textFieldCell key="cell" lineBreakMode="clipping" placeholderString="Label" id="xIs-dk-zep">
                         <font key="font" usesAppearanceFont="YES"/>
@@ -45,7 +45,7 @@
                         <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
                     </textFieldCell>
                 </textField>
-                <textField focusRingType="none" horizontalHuggingPriority="251" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="vCJ-My-N69" userLabel="LocalizedLabel2">
+                <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="vCJ-My-N69" userLabel="LocalizedLabel2">
                     <rect key="frame" x="18" y="188" width="190" height="16"/>
                     <textFieldCell key="cell" lineBreakMode="clipping" title="Localized string one" id="esf-18-vKr">
                         <font key="font" usesAppearanceFont="YES"/>
@@ -53,7 +53,7 @@
                         <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
                     </textFieldCell>
                 </textField>
-                <textField focusRingType="none" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="cLQ-sS-iHk" userLabel="localizedField2">
+                <textField verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="cLQ-sS-iHk" userLabel="localizedField2">
                     <rect key="frame" x="30" y="164" width="178" height="16"/>
                     <textFieldCell key="cell" lineBreakMode="clipping" placeholderString="Label" id="bbd-tq-DgG">
                         <font key="font" usesAppearanceFont="YES"/>
@@ -61,7 +61,7 @@
                         <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
                     </textFieldCell>
                 </textField>
-                <textField focusRingType="none" horizontalHuggingPriority="251" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="SAZ-Jg-gfP" userLabel="LocalizedLabel3">
+                <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="SAZ-Jg-gfP" userLabel="LocalizedLabel3">
                     <rect key="frame" x="18" y="140" width="190" height="16"/>
                     <textFieldCell key="cell" lineBreakMode="clipping" title="Localized string multiple args" id="9bm-gn-lsP">
                         <font key="font" usesAppearanceFont="YES"/>
@@ -69,7 +69,7 @@
                         <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
                     </textFieldCell>
                 </textField>
-                <textField focusRingType="none" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="n0m-yn-95p" userLabel="localizedField2">
+                <textField verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="n0m-yn-95p" userLabel="localizedField2">
                     <rect key="frame" x="30" y="116" width="178" height="16"/>
                     <textFieldCell key="cell" lineBreakMode="clipping" placeholderString="Label" id="fAt-VX-4df">
                         <font key="font" usesAppearanceFont="YES"/>
@@ -77,7 +77,7 @@
                         <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
                     </textFieldCell>
                 </textField>
-                <textField focusRingType="none" horizontalHuggingPriority="251" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="hEy-Tc-qC0" userLabel="LocalizedLabel4">
+                <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="hEy-Tc-qC0" userLabel="LocalizedLabel4">
                     <rect key="frame" x="18" y="92" width="182" height="16"/>
                     <textFieldCell key="cell" lineBreakMode="clipping" title="Localized string multiple args" id="xzN-Kw-xpb">
                         <font key="font" usesAppearanceFont="YES"/>
@@ -85,7 +85,7 @@
                         <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
                     </textFieldCell>
                 </textField>
-                <textField focusRingType="none" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="K5u-pl-vVb" userLabel="localizedField2">
+                <textField verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="K5u-pl-vVb" userLabel="localizedField2">
                     <rect key="frame" x="30" y="68" width="178" height="16"/>
                     <textFieldCell key="cell" lineBreakMode="clipping" placeholderString="Label" id="GrI-m1-hBr">
                         <font key="font" usesAppearanceFont="YES"/>
@@ -93,7 +93,7 @@
                         <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
                     </textFieldCell>
                 </textField>
-                <textField focusRingType="none" horizontalHuggingPriority="251" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="n9m-ox-QPN" userLabel="LocalizedLabel4">
+                <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="n9m-ox-QPN" userLabel="LocalizedLabel4">
                     <rect key="frame" x="18" y="44" width="182" height="16"/>
                     <textFieldCell key="cell" lineBreakMode="clipping" title="Localized string multiple args" id="PUD-HG-ONF">
                         <font key="font" usesAppearanceFont="YES"/>
@@ -101,7 +101,7 @@
                         <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
                     </textFieldCell>
                 </textField>
-                <textField focusRingType="none" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="n7y-E0-CSg" userLabel="localizedField2">
+                <textField verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="n7y-E0-CSg" userLabel="localizedField2">
                     <rect key="frame" x="30" y="20" width="178" height="16"/>
                     <textFieldCell key="cell" lineBreakMode="clipping" placeholderString="Label" id="BuN-nD-j1U">
                         <font key="font" usesAppearanceFont="YES"/>

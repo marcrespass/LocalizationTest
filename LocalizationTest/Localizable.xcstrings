@@ -1,76 +1,15 @@
 {
   "sourceLanguage" : "en",
   "strings" : {
-    "%lld Strawberry" : {
-      "localizations" : {
-        "en" : {
-          "variations" : {
-            "plural" : {
-              "one" : {
-                "stringUnit" : {
-                  "state" : "translated",
-                  "value" : "%lld Strawberry"
-                }
-              },
-              "other" : {
-                "stringUnit" : {
-                  "state" : "translated",
-                  "value" : "%lld Strawberries"
-                }
-              }
-            }
-          }
-        }
-      }
+    "There are %lld strawberries" : {
+
     },
-    "%lld Strawberry, %lld Apple" : {
+    "There are %lld strawberries and %lld apples" : {
       "localizations" : {
         "en" : {
           "stringUnit" : {
-            "state" : "translated",
-            "value" : "There %#@arg1@, and %#@arg2@"
-          },
-          "substitutions" : {
-            "arg1" : {
-              "argNum" : 1,
-              "formatSpecifier" : "lld",
-              "variations" : {
-                "plural" : {
-                  "one" : {
-                    "stringUnit" : {
-                      "state" : "translated",
-                      "value" : "is %arg Strawberry"
-                    }
-                  },
-                  "other" : {
-                    "stringUnit" : {
-                      "state" : "translated",
-                      "value" : "are %arg Strawberries"
-                    }
-                  }
-                }
-              }
-            },
-            "arg2" : {
-              "argNum" : 2,
-              "formatSpecifier" : "lld",
-              "variations" : {
-                "plural" : {
-                  "one" : {
-                    "stringUnit" : {
-                      "state" : "translated",
-                      "value" : "%arg Apple"
-                    }
-                  },
-                  "other" : {
-                    "stringUnit" : {
-                      "state" : "translated",
-                      "value" : "%arg Apples"
-                    }
-                  }
-                }
-              }
-            }
+            "state" : "new",
+            "value" : "There are %1$lld strawberries and %2$lld apples"
           }
         }
       }
