@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.Cocoa.XIB" version="3.0" toolsVersion="22505" targetRuntime="MacOSX.Cocoa" propertyAccessControl="none" useAutolayout="YES" customObjectInstantitationMethod="direct">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.CocoaPlugin" version="22505"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <customObject id="-2" userLabel="File's Owner" customClass="MainVC" customModule="LocalizationTest" customModuleProvider="target">
+            <connections>
+                <outlet property="localizedField1" destination="TNc-93-cvK" id="jUe-Mw-IjT"/>
+                <outlet property="localizedField2" destination="cLQ-sS-iHk" id="zyh-H9-FZH"/>
+                <outlet property="localizedField3" destination="n0m-yn-95p" id="QWT-y9-G0d"/>
+                <outlet property="localizedField4" destination="K5u-pl-vVb" id="c8w-nw-hdT"/>
+                <outlet property="localizedField5" destination="n7y-E0-CSg" id="Yit-Q9-MNb"/>
+                <outlet property="view" destination="Hz6-mo-xeY" id="0bl-1N-x8E"/>
+            </connections>
+        </customObject>
+        <customObject id="-1" userLabel="First Responder" customClass="FirstResponder"/>
+        <customObject id="-3" userLabel="Application" customClass="NSObject"/>
+        <customView id="Hz6-mo-xeY">
+            <rect key="frame" x="0.0" y="0.0" width="226" height="311"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+            <subviews>
+                <textField focusRingType="none" horizontalHuggingPriority="251" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="Dm0-0a-Om4">
+                    <rect key="frame" x="18" y="260" width="190" height="31"/>
+                    <textFieldCell key="cell" lineBreakMode="clipping" title="Localization Test" id="tF5-so-P0N">
+                        <font key="font" textStyle="largeTitle" name=".SFNS-Regular"/>
+                        <color key="textColor" name="labelColor" catalog="System" colorSpace="catalog"/>
+                        <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
+                    </textFieldCell>
+                </textField>
+                <textField focusRingType="none" horizontalHuggingPriority="251" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="7Vg-yO-0uu" userLabel="LocalizedLabel1">
+                    <rect key="frame" x="18" y="236" width="190" height="16"/>
+                    <textFieldCell key="cell" lineBreakMode="clipping" title="Localized string many" id="i7C-x6-r2L">
+                        <font key="font" usesAppearanceFont="YES"/>
+                        <color key="textColor" name="labelColor" catalog="System" colorSpace="catalog"/>
+                        <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
+                    </textFieldCell>
+                </textField>
+                <textField focusRingType="none" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="TNc-93-cvK" userLabel="localizedField1">
+                    <rect key="frame" x="30" y="212" width="178" height="16"/>
+                    <textFieldCell key="cell" lineBreakMode="clipping" placeholderString="Label" id="xIs-dk-zep">
+                        <font key="font" usesAppearanceFont="YES"/>
+                        <color key="textColor" name="systemGreenColor" catalog="System" colorSpace="catalog"/>
+                        <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
+                    </textFieldCell>
+                </textField>
+                <textField focusRingType="none" horizontalHuggingPriority="251" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="vCJ-My-N69" userLabel="LocalizedLabel2">
+                    <rect key="frame" x="18" y="188" width="190" height="16"/>
+                    <textFieldCell key="cell" lineBreakMode="clipping" title="Localized string one" id="esf-18-vKr">
+                        <font key="font" usesAppearanceFont="YES"/>
+                        <color key="textColor" name="labelColor" catalog="System" colorSpace="catalog"/>
+                        <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
+                    </textFieldCell>
+                </textField>
+                <textField focusRingType="none" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="cLQ-sS-iHk" userLabel="localizedField2">
+                    <rect key="frame" x="30" y="164" width="178" height="16"/>
+                    <textFieldCell key="cell" lineBreakMode="clipping" placeholderString="Label" id="bbd-tq-DgG">
+                        <font key="font" usesAppearanceFont="YES"/>
+                        <color key="textColor" name="systemGreenColor" catalog="System" colorSpace="catalog"/>
+                        <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
+                    </textFieldCell>
+                </textField>
+                <textField focusRingType="none" horizontalHuggingPriority="251" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="SAZ-Jg-gfP" userLabel="LocalizedLabel3">
+                    <rect key="frame" x="18" y="140" width="190" height="16"/>
+                    <textFieldCell key="cell" lineBreakMode="clipping" title="Localized string multiple args" id="9bm-gn-lsP">
+                        <font key="font" usesAppearanceFont="YES"/>
+                        <color key="textColor" name="labelColor" catalog="System" colorSpace="catalog"/>
+                        <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
+                    </textFieldCell>
+                </textField>
+                <textField focusRingType="none" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="n0m-yn-95p" userLabel="localizedField2">
+                    <rect key="frame" x="30" y="116" width="178" height="16"/>
+                    <textFieldCell key="cell" lineBreakMode="clipping" placeholderString="Label" id="fAt-VX-4df">
+                        <font key="font" usesAppearanceFont="YES"/>
+                        <color key="textColor" name="systemGreenColor" catalog="System" colorSpace="catalog"/>
+                        <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
+                    </textFieldCell>
+                </textField>
+                <textField focusRingType="none" horizontalHuggingPriority="251" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="hEy-Tc-qC0" userLabel="LocalizedLabel4">
+                    <rect key="frame" x="18" y="92" width="182" height="16"/>
+                    <textFieldCell key="cell" lineBreakMode="clipping" title="Localized string multiple args" id="xzN-Kw-xpb">
+                        <font key="font" usesAppearanceFont="YES"/>
+                        <color key="textColor" name="labelColor" catalog="System" colorSpace="catalog"/>
+                        <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
+                    </textFieldCell>
+                </textField>
+                <textField focusRingType="none" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="K5u-pl-vVb" userLabel="localizedField2">
+                    <rect key="frame" x="30" y="68" width="178" height="16"/>
+                    <textFieldCell key="cell" lineBreakMode="clipping" placeholderString="Label" id="GrI-m1-hBr">
+                        <font key="font" usesAppearanceFont="YES"/>
+                        <color key="textColor" name="systemGreenColor" catalog="System" colorSpace="catalog"/>
+                        <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
+                    </textFieldCell>
+                </textField>
+                <textField focusRingType="none" horizontalHuggingPriority="251" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="n9m-ox-QPN" userLabel="LocalizedLabel4">
+                    <rect key="frame" x="18" y="44" width="182" height="16"/>
+                    <textFieldCell key="cell" lineBreakMode="clipping" title="Localized string multiple args" id="PUD-HG-ONF">
+                        <font key="font" usesAppearanceFont="YES"/>
+                        <color key="textColor" name="labelColor" catalog="System" colorSpace="catalog"/>
+                        <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
+                    </textFieldCell>
+                </textField>
+                <textField focusRingType="none" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="n7y-E0-CSg" userLabel="localizedField2">
+                    <rect key="frame" x="30" y="20" width="178" height="16"/>
+                    <textFieldCell key="cell" lineBreakMode="clipping" placeholderString="Label" id="BuN-nD-j1U">
+                        <font key="font" usesAppearanceFont="YES"/>
+                        <color key="textColor" name="systemGreenColor" catalog="System" colorSpace="catalog"/>
+                        <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
+                    </textFieldCell>
+                </textField>
+            </subviews>
+            <constraints>
+                <constraint firstItem="n9m-ox-QPN" firstAttribute="top" secondItem="K5u-pl-vVb" secondAttribute="bottom" constant="8" symbolic="YES" id="1Dv-ij-jLM"/>
+                <constraint firstItem="K5u-pl-vVb" firstAttribute="top" secondItem="hEy-Tc-qC0" secondAttribute="bottom" constant="8" symbolic="YES" id="1sw-pY-JXk"/>
+                <constraint firstItem="K5u-pl-vVb" firstAttribute="leading" secondItem="hEy-Tc-qC0" secondAttribute="leading" constant="12" id="29G-hE-2lm"/>
+                <constraint firstItem="SAZ-Jg-gfP" firstAttribute="top" secondItem="cLQ-sS-iHk" secondAttribute="bottom" constant="8" symbolic="YES" id="4Kz-Il-4ax"/>
+                <constraint firstAttribute="trailing" secondItem="K5u-pl-vVb" secondAttribute="trailing" constant="20" symbolic="YES" id="4ql-9f-QmA"/>
+                <constraint firstItem="7Vg-yO-0uu" firstAttribute="leading" secondItem="vCJ-My-N69" secondAttribute="leading" id="7W4-wz-bns"/>
+                <constraint firstItem="cLQ-sS-iHk" firstAttribute="leading" secondItem="vCJ-My-N69" secondAttribute="leading" constant="12" id="7qA-g0-Xm3"/>
+                <constraint firstAttribute="trailing" secondItem="n0m-yn-95p" secondAttribute="trailing" constant="20" symbolic="YES" id="Bcx-c5-KBR"/>
+                <constraint firstItem="n0m-yn-95p" firstAttribute="leading" secondItem="SAZ-Jg-gfP" secondAttribute="leading" constant="12" id="Du9-HA-lnL"/>
+                <constraint firstItem="7Vg-yO-0uu" firstAttribute="leading" secondItem="Hz6-mo-xeY" secondAttribute="leading" constant="20" symbolic="YES" id="FBI-Rs-dmM"/>
+                <constraint firstItem="TNc-93-cvK" firstAttribute="top" secondItem="7Vg-yO-0uu" secondAttribute="bottom" constant="8" symbolic="YES" id="FeC-5m-mUv"/>
+                <constraint firstAttribute="trailing" secondItem="vCJ-My-N69" secondAttribute="trailing" constant="20" symbolic="YES" id="H5W-rv-rcu"/>
+                <constraint firstItem="7Vg-yO-0uu" firstAttribute="leading" secondItem="SAZ-Jg-gfP" secondAttribute="leading" id="Nt9-Ge-TD5"/>
+                <constraint firstItem="Dm0-0a-Om4" firstAttribute="top" secondItem="Hz6-mo-xeY" secondAttribute="top" constant="20" symbolic="YES" id="P49-JN-rQh"/>
+                <constraint firstAttribute="trailing" secondItem="7Vg-yO-0uu" secondAttribute="trailing" constant="20" symbolic="YES" id="Rmn-bU-cPP"/>
+                <constraint firstAttribute="trailing" secondItem="SAZ-Jg-gfP" secondAttribute="trailing" constant="20" symbolic="YES" id="TgL-6u-eo6"/>
+                <constraint firstItem="n9m-ox-QPN" firstAttribute="leading" secondItem="hEy-Tc-qC0" secondAttribute="leading" id="WGN-IA-Mfr"/>
+                <constraint firstItem="hEy-Tc-qC0" firstAttribute="leading" secondItem="SAZ-Jg-gfP" secondAttribute="leading" id="XhG-l6-Zf1"/>
+                <constraint firstItem="7Vg-yO-0uu" firstAttribute="top" secondItem="Dm0-0a-Om4" secondAttribute="bottom" constant="8" symbolic="YES" id="Zuw-Ti-BMV"/>
+                <constraint firstItem="n7y-E0-CSg" firstAttribute="top" secondItem="n9m-ox-QPN" secondAttribute="bottom" constant="8" symbolic="YES" id="e6M-BF-3Q8"/>
+                <constraint firstItem="TNc-93-cvK" firstAttribute="leading" secondItem="7Vg-yO-0uu" secondAttribute="leading" constant="12" id="edQ-nx-gi6"/>
+                <constraint firstAttribute="trailing" secondItem="cLQ-sS-iHk" secondAttribute="trailing" constant="20" symbolic="YES" id="ef1-Xs-fTD"/>
+                <constraint firstAttribute="trailing" secondItem="n7y-E0-CSg" secondAttribute="trailing" constant="20" symbolic="YES" id="fX1-QP-Lrh"/>
+                <constraint firstItem="vCJ-My-N69" firstAttribute="top" secondItem="TNc-93-cvK" secondAttribute="bottom" constant="8" symbolic="YES" id="hc3-V1-nF5"/>
+                <constraint firstItem="n0m-yn-95p" firstAttribute="top" secondItem="SAZ-Jg-gfP" secondAttribute="bottom" constant="8" symbolic="YES" id="m4N-xq-f4z"/>
+                <constraint firstAttribute="trailing" secondItem="TNc-93-cvK" secondAttribute="trailing" constant="20" symbolic="YES" id="mWb-BL-kAE"/>
+                <constraint firstItem="Dm0-0a-Om4" firstAttribute="leading" secondItem="Hz6-mo-xeY" secondAttribute="leading" constant="20" symbolic="YES" id="nQb-ps-9F5"/>
+                <constraint firstAttribute="trailing" secondItem="Dm0-0a-Om4" secondAttribute="trailing" constant="20" symbolic="YES" id="noV-3U-GyK"/>
+                <constraint firstItem="n7y-E0-CSg" firstAttribute="leading" secondItem="n9m-ox-QPN" secondAttribute="leading" constant="12" id="wYn-ff-TsM"/>
+                <constraint firstItem="cLQ-sS-iHk" firstAttribute="top" secondItem="vCJ-My-N69" secondAttribute="bottom" constant="8" symbolic="YES" id="y1P-6g-0uX"/>
+                <constraint firstItem="hEy-Tc-qC0" firstAttribute="top" secondItem="n0m-yn-95p" secondAttribute="bottom" constant="8" symbolic="YES" id="zoR-Xj-SOc"/>
+            </constraints>
+            <point key="canvasLocation" x="65" y="355.5"/>
+        </customView>
+    </objects>
+</document>
