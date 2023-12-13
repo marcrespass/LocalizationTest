@@ -35,16 +35,16 @@ class MainVC: NSViewController {
         let string1 = String(localized: "There are \(one) strawberries")
         self.localizedField1.stringValue = string1
 
-        let string2 = String(localized: "There are \(many) strawberries")
+        let string2 = "There are \(many) strawberries"
         self.localizedField2.stringValue = string2
 
-        let string3 = String(localized: "There are \(many) strawberries and \(many) apples")
+        let string3 = "There are \(many) strawberries and \(many) apples"
         self.localizedField3.stringValue = string3
 
-        let string4 = String(localized: "There are \(one) strawberries and \(one) apples")
+        let string4 = "There are \(one) strawberries and \(one) apples"
         self.localizedField4.stringValue = string4
 
-        let string5 = String(localized: "There are \(one) strawberries and \(many) apples")
+        let string5 = "There are \(one) strawberries and \(many) apples"
         self.localizedField5.stringValue = string5
     }
 

@@ -38,16 +38,16 @@
     long long many = 3;
     long long one = 1;
 
-    NSString *string1 = [NSString localizedStringWithFormat:NSLocalizedString(@"There are %lld strawberries", @""), many];
+    NSString *string1 = [NSString stringWithFormat:NSLocalizedString(@"There are %lld strawberries", @""), many];
     self.localizedField1.stringValue = string1;
 
-    NSString *string2 = [NSString localizedStringWithFormat:NSLocalizedString(@"There are %lld strawberries", @""), one];
+    NSString *string2 = [NSString stringWithFormat:NSLocalizedString(@"There are %lld strawberries", @""), one];
     self.localizedField2.stringValue = string2;
 
-    NSString *string3 = [NSString localizedStringWithFormat:NSLocalizedString(@"There are %lld strawberries and %lld apples", @""), many, many];
+    NSString *string3 = [NSString stringWithFormat:NSLocalizedString(@"There are %lld strawberries and %lld apples", @""), many, many];
     self.localizedField3.stringValue = string3;
 
-    NSString *string4 = [NSString localizedStringWithFormat:NSLocalizedString(@"There are %lld strawberries and %lld apples", @""), one, one];
+    NSString *string4 = [NSString stringWithFormat:NSLocalizedString(@"There are %lld strawberries and %lld apples", @""), one, one];
     self.localizedField4.stringValue = string4;
 
     NSString *string5 = [NSString localizedStringWithFormat:NSLocalizedString(@"There are %lld strawberries and %lld apples", @""), one, many];
