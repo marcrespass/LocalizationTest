@@ -15,7 +15,7 @@ class AppDelegate: NSObject, NSApplicationDelegate {
 
     func applicationDidFinishLaunching(_ aNotification: Notification) {
         self.window = NSWindow(contentViewController: self.mainVC)
-        self.window?.title = "Localization Test"
+        self.window?.title = "\(String(describing: mainVC.self))"
         self.window?.makeKeyAndOrderFront(self)
     }
 
