@@ -32,7 +32,7 @@ class MainVC: NSViewController {
         super.viewDidLoad()
 
 //        self.titleField.stringValue = "fruit1 and fruit2" // DOES NOT WORK
-//        self.titleField.stringValue = String(localized: "fruit1 and fruit2") // Seems more swifty
+//        self.titleField.stringValue = String(localized: "fruit1 and fruit2") // Works. Seems more swifty
         self.titleField.stringValue = NSLocalizedString("fruit1 and fruit2", comment: "") // Seems more Objective-C
 
         let many = 3

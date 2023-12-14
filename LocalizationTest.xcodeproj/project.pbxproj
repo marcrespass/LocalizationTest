@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D32F8F7C2B2BAF6B00E95630 /* Main2VC.m in Sources */ = {isa = PBXBuildFile; fileRef = D32F8F7B2B2BAF6B00E95630 /* Main2VC.m */; };
 		D37B1BEB2B07E17700FE0C89 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D37B1BEA2B07E17700FE0C89 /* AppDelegate.swift */; };
 		D37B1BED2B07E17800FE0C89 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D37B1BEC2B07E17800FE0C89 /* Assets.xcassets */; };
 		D37B1BF02B07E17800FE0C89 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = D37B1BEE2B07E17800FE0C89 /* MainMenu.xib */; };
@@ -16,6 +17,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		D32F8F792B2BAF6A00E95630 /* LocalizationTest-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "LocalizationTest-Bridging-Header.h"; sourceTree = "<group>"; };
+		D32F8F7A2B2BAF6B00E95630 /* Main2VC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Main2VC.h; sourceTree = "<group>"; };
+		D32F8F7B2B2BAF6B00E95630 /* Main2VC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Main2VC.m; sourceTree = "<group>"; };
 		D37B1BE72B07E17700FE0C89 /* LocalizationTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LocalizationTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D37B1BEA2B07E17700FE0C89 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D37B1BEC2B07E17800FE0C89 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -63,6 +67,9 @@
 				D37B1BF72B07E1A900FE0C89 /* Localizable.xcstrings */,
 				D37B1BF92B07E21E00FE0C89 /* MainVC.swift */,
 				D37B1BFA2B07E21E00FE0C89 /* MainVC.xib */,
+				D32F8F7A2B2BAF6B00E95630 /* Main2VC.h */,
+				D32F8F7B2B2BAF6B00E95630 /* Main2VC.m */,
+				D32F8F792B2BAF6A00E95630 /* LocalizationTest-Bridging-Header.h */,
 			);
 			path = LocalizationTest;
 			sourceTree = "<group>";
@@ -99,7 +106,7 @@
 				TargetAttributes = {
 					D37B1BE62B07E17700FE0C89 = {
 						CreatedOnToolsVersion = 15.0.1;
-						LastSwiftMigration = 1500;
+						LastSwiftMigration = 1510;
 					};
 				};
 			};
@@ -142,6 +149,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D37B1BEB2B07E17700FE0C89 /* AppDelegate.swift in Sources */,
+				D32F8F7C2B2BAF6B00E95630 /* Main2VC.m in Sources */,
 				D37B1BFB2B07E21E00FE0C89 /* MainVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -302,6 +310,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.iliosinc.LocalizationTest;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "LocalizationTest/LocalizationTest-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 			};
@@ -331,6 +340,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.iliosinc.LocalizationTest;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "LocalizationTest/LocalizationTest-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
 			};
 			name = Release;
