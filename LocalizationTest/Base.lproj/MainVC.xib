@@ -70,7 +70,7 @@
                     </textFieldCell>
                 </textField>
                 <textField focusRingType="none" horizontalHuggingPriority="251" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="hEy-Tc-qC0" userLabel="LocalizedLabel4">
-                    <rect key="frame" x="18" y="92" width="182" height="16"/>
+                    <rect key="frame" x="18" y="92" width="325" height="16"/>
                     <textFieldCell key="cell" lineBreakMode="clipping" title="Localized string multiple args" id="xzN-Kw-xpb">
                         <font key="font" usesAppearanceFont="YES"/>
                         <color key="textColor" name="labelColor" catalog="System" colorSpace="catalog"/>
@@ -86,7 +86,7 @@
                     </textFieldCell>
                 </textField>
                 <textField focusRingType="none" horizontalHuggingPriority="251" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="n9m-ox-QPN" userLabel="LocalizedLabel4">
-                    <rect key="frame" x="18" y="44" width="182" height="16"/>
+                    <rect key="frame" x="18" y="44" width="325" height="16"/>
                     <textFieldCell key="cell" lineBreakMode="clipping" title="Localized string multiple args" id="PUD-HG-ONF">
                         <font key="font" usesAppearanceFont="YES"/>
                         <color key="textColor" name="labelColor" catalog="System" colorSpace="catalog"/>
@@ -148,6 +148,8 @@
                 <constraint firstAttribute="trailing" secondItem="cLQ-sS-iHk" secondAttribute="trailing" constant="20" symbolic="YES" id="ef1-Xs-fTD"/>
                 <constraint firstAttribute="trailing" secondItem="n7y-E0-CSg" secondAttribute="trailing" constant="20" symbolic="YES" id="fX1-QP-Lrh"/>
                 <constraint firstItem="vCJ-My-N69" firstAttribute="top" secondItem="TNc-93-cvK" secondAttribute="bottom" constant="8" symbolic="YES" id="hc3-V1-nF5"/>
+                <constraint firstAttribute="trailing" secondItem="n9m-ox-QPN" secondAttribute="trailing" constant="20" symbolic="YES" id="lAg-N6-Am6"/>
+                <constraint firstAttribute="trailing" secondItem="hEy-Tc-qC0" secondAttribute="trailing" constant="20" symbolic="YES" id="lCy-Ii-tFE"/>
                 <constraint firstItem="n0m-yn-95p" firstAttribute="top" secondItem="SAZ-Jg-gfP" secondAttribute="bottom" constant="8" symbolic="YES" id="m4N-xq-f4z"/>
                 <constraint firstAttribute="trailing" secondItem="TNc-93-cvK" secondAttribute="trailing" constant="20" symbolic="YES" id="mWb-BL-kAE"/>
                 <constraint firstItem="Dm0-0a-Om4" firstAttribute="leading" secondItem="Hz6-mo-xeY" secondAttribute="leading" constant="20" symbolic="YES" id="nQb-ps-9F5"/>
