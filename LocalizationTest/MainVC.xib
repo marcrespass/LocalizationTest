@@ -29,14 +29,6 @@
                         <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
                     </textFieldCell>
                 </textField>
-                <textField focusRingType="none" horizontalHuggingPriority="251" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="7Vg-yO-0uu" userLabel="LocalizedLabel1">
-                    <rect key="frame" x="18" y="236" width="325" height="16"/>
-                    <textFieldCell key="cell" lineBreakMode="clipping" title="Localized string many" id="i7C-x6-r2L">
-                        <font key="font" usesAppearanceFont="YES"/>
-                        <color key="textColor" name="labelColor" catalog="System" colorSpace="catalog"/>
-                        <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
-                    </textFieldCell>
-                </textField>
                 <textField focusRingType="none" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="TNc-93-cvK" userLabel="localizedField1">
                     <rect key="frame" x="30" y="212" width="313" height="16"/>
                     <textFieldCell key="cell" lineBreakMode="clipping" placeholderString="Label" id="xIs-dk-zep">
@@ -109,12 +101,31 @@
                         <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
                     </textFieldCell>
                 </textField>
+                <button horizontalHuggingPriority="750" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="hzT-wY-Xsq">
+                    <rect key="frame" x="267" y="227" width="81" height="32"/>
+                    <buttonCell key="cell" type="push" title="Change" bezelStyle="rounded" alignment="center" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="YqW-7t-qVI">
+                        <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
+                        <font key="font" metaFont="system"/>
+                    </buttonCell>
+                    <connections>
+                        <action selector="toggleZero1:" target="-2" id="BBa-2S-ONp"/>
+                    </connections>
+                </button>
+                <textField focusRingType="none" horizontalHuggingPriority="251" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="7Vg-yO-0uu" userLabel="LocalizedLabel1">
+                    <rect key="frame" x="18" y="236" width="250" height="16"/>
+                    <textFieldCell key="cell" lineBreakMode="clipping" title="Localized string many" id="i7C-x6-r2L">
+                        <font key="font" usesAppearanceFont="YES"/>
+                        <color key="textColor" name="labelColor" catalog="System" colorSpace="catalog"/>
+                        <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
+                    </textFieldCell>
+                </textField>
             </subviews>
             <constraints>
                 <constraint firstAttribute="height" constant="311" id="13W-2J-PoE"/>
                 <constraint firstItem="n9m-ox-QPN" firstAttribute="top" secondItem="K5u-pl-vVb" secondAttribute="bottom" constant="8" symbolic="YES" id="1Dv-ij-jLM"/>
                 <constraint firstItem="K5u-pl-vVb" firstAttribute="top" secondItem="hEy-Tc-qC0" secondAttribute="bottom" constant="8" symbolic="YES" id="1sw-pY-JXk"/>
                 <constraint firstItem="K5u-pl-vVb" firstAttribute="leading" secondItem="hEy-Tc-qC0" secondAttribute="leading" constant="12" id="29G-hE-2lm"/>
+                <constraint firstItem="hzT-wY-Xsq" firstAttribute="leading" secondItem="7Vg-yO-0uu" secondAttribute="trailing" constant="8" symbolic="YES" id="3vf-WD-wem"/>
                 <constraint firstItem="SAZ-Jg-gfP" firstAttribute="top" secondItem="cLQ-sS-iHk" secondAttribute="bottom" constant="8" symbolic="YES" id="4Kz-Il-4ax"/>
                 <constraint firstAttribute="trailing" secondItem="K5u-pl-vVb" secondAttribute="trailing" constant="20" symbolic="YES" id="4ql-9f-QmA"/>
                 <constraint firstItem="7Vg-yO-0uu" firstAttribute="leading" secondItem="vCJ-My-N69" secondAttribute="leading" id="7W4-wz-bns"/>
@@ -126,12 +137,13 @@
                 <constraint firstAttribute="trailing" secondItem="vCJ-My-N69" secondAttribute="trailing" constant="20" symbolic="YES" id="H5W-rv-rcu"/>
                 <constraint firstItem="7Vg-yO-0uu" firstAttribute="leading" secondItem="SAZ-Jg-gfP" secondAttribute="leading" id="Nt9-Ge-TD5"/>
                 <constraint firstItem="Dm0-0a-Om4" firstAttribute="top" secondItem="Hz6-mo-xeY" secondAttribute="top" constant="20" symbolic="YES" id="P49-JN-rQh"/>
-                <constraint firstAttribute="trailing" secondItem="7Vg-yO-0uu" secondAttribute="trailing" constant="20" symbolic="YES" id="Rmn-bU-cPP"/>
+                <constraint firstAttribute="trailing" secondItem="hzT-wY-Xsq" secondAttribute="trailing" constant="20" symbolic="YES" id="SaG-Ta-XPv"/>
                 <constraint firstAttribute="trailing" secondItem="SAZ-Jg-gfP" secondAttribute="trailing" constant="20" symbolic="YES" id="TgL-6u-eo6"/>
                 <constraint firstItem="n9m-ox-QPN" firstAttribute="leading" secondItem="hEy-Tc-qC0" secondAttribute="leading" id="WGN-IA-Mfr"/>
                 <constraint firstItem="hEy-Tc-qC0" firstAttribute="leading" secondItem="SAZ-Jg-gfP" secondAttribute="leading" id="XhG-l6-Zf1"/>
                 <constraint firstItem="7Vg-yO-0uu" firstAttribute="top" secondItem="Dm0-0a-Om4" secondAttribute="bottom" constant="8" symbolic="YES" id="Zuw-Ti-BMV"/>
                 <constraint firstItem="n7y-E0-CSg" firstAttribute="top" secondItem="n9m-ox-QPN" secondAttribute="bottom" constant="8" symbolic="YES" id="e6M-BF-3Q8"/>
+                <constraint firstItem="hzT-wY-Xsq" firstAttribute="centerY" secondItem="7Vg-yO-0uu" secondAttribute="centerY" id="eEU-ms-qSB"/>
                 <constraint firstItem="TNc-93-cvK" firstAttribute="leading" secondItem="7Vg-yO-0uu" secondAttribute="leading" constant="12" id="edQ-nx-gi6"/>
                 <constraint firstAttribute="trailing" secondItem="cLQ-sS-iHk" secondAttribute="trailing" constant="20" symbolic="YES" id="ef1-Xs-fTD"/>
                 <constraint firstAttribute="trailing" secondItem="n7y-E0-CSg" secondAttribute="trailing" constant="20" symbolic="YES" id="fX1-QP-Lrh"/>

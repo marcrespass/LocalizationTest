@@ -54,4 +54,17 @@ class MainVC: NSViewController {
         self.localizedField5.stringValue = string5
     }
 
+    @IBAction func toggleZero1(_ sender: NSButton) {
+        let none = 0
+        let string1 = String(localized: "There are \(none) fruit1")
+        self.localizedField1.stringValue = string1
+        sender.action = #selector(toggleZero2(_:))
+    }
+
+    @IBAction func toggleZero2(_ sender: NSButton) {
+        let none = 1
+        let string1 = String(localized: "There are \(none) fruit1")
+        self.localizedField1.stringValue = string1
+        sender.action = #selector(toggleZero1(_:))
+    }
 }
