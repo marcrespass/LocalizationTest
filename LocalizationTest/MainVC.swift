@@ -8,6 +8,7 @@
 import Cocoa
 
 class MainVC: NSViewController {
+    @IBOutlet weak var titleField: NSTextField!
     @IBOutlet weak var localizedField1: NSTextField!
     @IBOutlet weak var localizedField2: NSTextField!
     @IBOutlet weak var localizedField3: NSTextField!
@@ -29,6 +30,10 @@ class MainVC: NSViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
+
+        self.titleField.stringValue = String(localized:"Strawberries and blueberries")
+//        self.titleField.stringValue = "Strawberries and blueberries"
+
         let many = 3
         let one = 1
 

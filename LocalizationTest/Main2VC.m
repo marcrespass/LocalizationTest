@@ -8,6 +8,7 @@
 #import "Main2VC.h"
 
 @interface Main2VC ()
+@property (weak) IBOutlet NSTextField *titleField;
 @property (weak) IBOutlet NSTextField *localizedField1;
 @property (weak) IBOutlet NSTextField *localizedField2;
 @property (weak) IBOutlet NSTextField *localizedField3;
@@ -35,6 +36,11 @@
 - (void)viewDidLoad;
 {
     [super viewDidLoad];
+
+    self.titleField.stringValue = NSLocalizedString(@"Strawberries and blueberries", @"");
+//    self.titleField.stringValue = @"Strawberries and blueberries";
+//    self.titleField.stringValue = [NSString stringWithFormat:@"Strawberries and blueberries"];
+
     long long many = 3;
     long long one = 1;
 
