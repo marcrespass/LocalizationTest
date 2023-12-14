@@ -1,6 +1,16 @@
 {
   "sourceLanguage" : "en",
   "strings" : {
+    "Strawberries and blueberries" : {
+      "localizations" : {
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Fresas y arándanos"
+          }
+        }
+      }
+    },
     "There are %lld strawberries" : {
       "localizations" : {
         "en" : {
@@ -41,7 +51,7 @@
         }
       }
     },
-    "There are %lld strawberries and %lld apples" : {
+    "There are %lld strawberries and %lld blueberries" : {
       "localizations" : {
         "en" : {
           "stringUnit" : {
@@ -77,13 +87,13 @@
                   "one" : {
                     "stringUnit" : {
                       "state" : "translated",
-                      "value" : "%arg apple"
+                      "value" : "%arg blueberry"
                     }
                   },
                   "other" : {
                     "stringUnit" : {
                       "state" : "translated",
-                      "value" : "%arg apples"
+                      "value" : "%arg blueberries"
                     }
                   }
                 }
@@ -125,13 +135,13 @@
                   "one" : {
                     "stringUnit" : {
                       "state" : "translated",
-                      "value" : "%arg manzana"
+                      "value" : "%arg arándano"
                     }
                   },
                   "other" : {
                     "stringUnit" : {
                       "state" : "translated",
-                      "value" : "%arg manzanas"
+                      "value" : "%arg arándanos"
                     }
                   }
                 }
