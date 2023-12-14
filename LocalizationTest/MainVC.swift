@@ -31,25 +31,26 @@ class MainVC: NSViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        self.titleField.stringValue = String(localized:"Strawberries and blueberries")
-//        self.titleField.stringValue = "Strawberries and blueberries"
+//        self.titleField.stringValue = "fruit1 and fruit2" // DOES NOT WORK
+//        self.titleField.stringValue = String(localized: "fruit1 and fruit2") // Seems more swifty
+        self.titleField.stringValue = NSLocalizedString("fruit1 and fruit2", comment: "") // Seems more Objective-C
 
         let many = 3
         let one = 1
 
-        let string1 = String(localized: "There are \(one) strawberries")
+        let string1 = String(localized: "There are \(one) fruit1")
         self.localizedField1.stringValue = string1
 
-        let string2 = "There are \(many) strawberries"
+        let string2 = String(localized: "There are \(many) fruit1")
         self.localizedField2.stringValue = string2
 
-        let string3 = "There are \(many) strawberries and \(many) blueberries"
+        let string3 = String(localized: "There are \(many) fruit1 and \(many) fruit2")
         self.localizedField3.stringValue = string3
 
-        let string4 = "There are \(one) strawberries and \(one) blueberries"
+        let string4 = String(localized: "There are \(one) fruit1 and \(one) fruit2")
         self.localizedField4.stringValue = string4
 
-        let string5 = "There are \(one) strawberries and \(many) blueberries"
+        let string5 = String(localized: "There are \(one) fruit1 and \(many) fruit2")
         self.localizedField5.stringValue = string5
     }
 

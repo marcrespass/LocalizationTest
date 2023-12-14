@@ -1,8 +1,14 @@
 {
   "sourceLanguage" : "en",
   "strings" : {
-    "Strawberries and blueberries" : {
+    "fruit1 and fruit2" : {
       "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Strawberries and blueberries"
+          }
+        },
         "es" : {
           "stringUnit" : {
             "state" : "translated",
@@ -11,7 +17,7 @@
         }
       }
     },
-    "There are %lld strawberries" : {
+    "There are %lld fruit1" : {
       "localizations" : {
         "en" : {
           "variations" : {
@@ -24,7 +30,7 @@
               },
               "other" : {
                 "stringUnit" : {
-                  "state" : "new",
+                  "state" : "translated",
                   "value" : "There are %lld strawberries"
                 }
               }
@@ -51,12 +57,12 @@
         }
       }
     },
-    "There are %lld strawberries and %lld blueberries" : {
+    "There are %lld fruit1 and %lld fruit2" : {
       "localizations" : {
         "en" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "%#@arg1@ and %#@arg2@"
+            "value" : " %#@arg1@ and %#@arg2@"
           },
           "substitutions" : {
             "arg1" : {
@@ -104,7 +110,7 @@
         "es" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "%#@arg1@ y %#@arg2@"
+            "value" : " %#@arg1@ y %#@arg2@"
           },
           "substitutions" : {
             "arg1" : {
