@@ -39,7 +39,7 @@
                 </textField>
                 <textField focusRingType="none" horizontalHuggingPriority="251" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="vCJ-My-N69" userLabel="LocalizedLabel2">
                     <rect key="frame" x="18" y="188" width="325" height="16"/>
-                    <textFieldCell key="cell" lineBreakMode="clipping" title="Localized string one" id="esf-18-vKr">
+                    <textFieldCell key="cell" lineBreakMode="clipping" title="Localized string many" id="esf-18-vKr">
                         <font key="font" usesAppearanceFont="YES"/>
                         <color key="textColor" name="labelColor" catalog="System" colorSpace="catalog"/>
                         <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
@@ -113,7 +113,7 @@
                 </button>
                 <textField focusRingType="none" horizontalHuggingPriority="251" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="7Vg-yO-0uu" userLabel="LocalizedLabel1">
                     <rect key="frame" x="18" y="236" width="250" height="16"/>
-                    <textFieldCell key="cell" lineBreakMode="clipping" title="Localized string many" id="i7C-x6-r2L">
+                    <textFieldCell key="cell" lineBreakMode="clipping" title="Localized string one or zero" id="i7C-x6-r2L">
                         <font key="font" usesAppearanceFont="YES"/>
                         <color key="textColor" name="labelColor" catalog="System" colorSpace="catalog"/>
                         <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>

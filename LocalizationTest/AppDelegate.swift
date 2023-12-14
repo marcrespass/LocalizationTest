@@ -10,8 +10,8 @@ import Cocoa
 @main
 class AppDelegate: NSObject, NSApplicationDelegate {
 
-//    let mainVC = MainVC()
-    let mainVC = Main2VC()
+    let mainVC = MainVC()
+//    let mainVC = Main2VC()
     var window: NSWindow?
 
     func applicationDidFinishLaunching(_ aNotification: Notification) {

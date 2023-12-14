@@ -1,0 +1,192 @@
+{
+  "sourceLanguage" : "en",
+  "strings" : {
+    "9bm-gn-lsP.title" : {
+      "comment" : "Class = \"NSTextFieldCell\"; title = \"Localized string multiple args\"; ObjectID = \"9bm-gn-lsP\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Localized string multiple args"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Cuerda localizada multiples argumentos"
+          }
+        }
+      }
+    },
+    "bbd-tq-DgG.placeholderString" : {
+      "comment" : "Class = \"NSTextFieldCell\"; placeholderString = \"Label\"; ObjectID = \"bbd-tq-DgG\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Label"
+          }
+        }
+      }
+    },
+    "BuN-nD-j1U.placeholderString" : {
+      "comment" : "Class = \"NSTextFieldCell\"; placeholderString = \"Label\"; ObjectID = \"BuN-nD-j1U\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Label"
+          }
+        }
+      }
+    },
+    "esf-18-vKr.title" : {
+      "comment" : "Class = \"NSTextFieldCell\"; title = \"Localized string many\"; ObjectID = \"esf-18-vKr\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Localized string many"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Cuerda localizada muchas"
+          }
+        }
+      }
+    },
+    "fAt-VX-4df.placeholderString" : {
+      "comment" : "Class = \"NSTextFieldCell\"; placeholderString = \"Label\"; ObjectID = \"fAt-VX-4df\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Label"
+          }
+        }
+      }
+    },
+    "GrI-m1-hBr.placeholderString" : {
+      "comment" : "Class = \"NSTextFieldCell\"; placeholderString = \"Label\"; ObjectID = \"GrI-m1-hBr\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Label"
+          }
+        }
+      }
+    },
+    "i7C-x6-r2L.title" : {
+      "comment" : "Class = \"NSTextFieldCell\"; title = \"Localized string one or zero\"; ObjectID = \"i7C-x6-r2L\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Localized string one or zero"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Cuerda localizada una o zero"
+          }
+        }
+      }
+    },
+    "PUD-HG-ONF.title" : {
+      "comment" : "Class = \"NSTextFieldCell\"; title = \"Localized string multiple args\"; ObjectID = \"PUD-HG-ONF\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Localized string multiple args"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Cuerda localizada multiples argumentos"
+          }
+        }
+      }
+    },
+    "tF5-so-P0N.title" : {
+      "comment" : "Class = \"NSTextFieldCell\"; title = \"Strawberries and blueberries\"; ObjectID = \"tF5-so-P0N\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Strawberries and blueberries"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Fresas y arándanos"
+          }
+        }
+      }
+    },
+    "xIs-dk-zep.placeholderString" : {
+      "comment" : "Class = \"NSTextFieldCell\"; placeholderString = \"Label\"; ObjectID = \"xIs-dk-zep\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Label"
+          }
+        }
+      }
+    },
+    "xzN-Kw-xpb.title" : {
+      "comment" : "Class = \"NSTextFieldCell\"; title = \"Localized string multiple args\"; ObjectID = \"xzN-Kw-xpb\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Localized string multiple args"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Cuerda localizada multiples argumentos"
+          }
+        }
+      }
+    },
+    "YqW-7t-qVI.title" : {
+      "comment" : "Class = \"NSButtonCell\"; title = \"Change\"; ObjectID = \"YqW-7t-qVI\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Change"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Cambiar"
+          }
+        }
+      }
+    }
+  },
+  "version" : "1.0"
+}

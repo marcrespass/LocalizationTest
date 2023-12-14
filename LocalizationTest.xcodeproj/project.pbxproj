@@ -3,23 +3,25 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 56;
+	objectVersion = 60;
 	objects = {
 
 /* Begin PBXBuildFile section */
 		D32F8F7C2B2BAF6B00E95630 /* Main2VC.m in Sources */ = {isa = PBXBuildFile; fileRef = D32F8F7B2B2BAF6B00E95630 /* Main2VC.m */; };
+		D32F8F7D2B2BB3E000E95630 /* MainVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = D32F8F7F2B2BB3E000E95630 /* MainVC.xib */; };
 		D37B1BEB2B07E17700FE0C89 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D37B1BEA2B07E17700FE0C89 /* AppDelegate.swift */; };
 		D37B1BED2B07E17800FE0C89 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D37B1BEC2B07E17800FE0C89 /* Assets.xcassets */; };
 		D37B1BF02B07E17800FE0C89 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = D37B1BEE2B07E17800FE0C89 /* MainMenu.xib */; };
 		D37B1BF82B07E1A900FE0C89 /* Localizable.xcstrings in Resources */ = {isa = PBXBuildFile; fileRef = D37B1BF72B07E1A900FE0C89 /* Localizable.xcstrings */; };
 		D37B1BFB2B07E21E00FE0C89 /* MainVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D37B1BF92B07E21E00FE0C89 /* MainVC.swift */; };
-		D37B1BFC2B07E21E00FE0C89 /* MainVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = D37B1BFA2B07E21E00FE0C89 /* MainVC.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		D32F8F792B2BAF6A00E95630 /* LocalizationTest-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "LocalizationTest-Bridging-Header.h"; sourceTree = "<group>"; };
 		D32F8F7A2B2BAF6B00E95630 /* Main2VC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Main2VC.h; sourceTree = "<group>"; };
 		D32F8F7B2B2BAF6B00E95630 /* Main2VC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Main2VC.m; sourceTree = "<group>"; };
+		D32F8F7E2B2BB3E000E95630 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainVC.xib; sourceTree = "<group>"; };
+		D32F8F802B2BB3E000E95630 /* mul */ = {isa = PBXFileReference; lastKnownFileType = text.json.xcstrings; name = mul; path = mul.lproj/MainVC.xcstrings; sourceTree = "<group>"; };
 		D37B1BE72B07E17700FE0C89 /* LocalizationTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LocalizationTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D37B1BEA2B07E17700FE0C89 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D37B1BEC2B07E17800FE0C89 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -27,7 +29,6 @@
 		D37B1BF12B07E17800FE0C89 /* LocalizationTest.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = LocalizationTest.entitlements; sourceTree = "<group>"; };
 		D37B1BF72B07E1A900FE0C89 /* Localizable.xcstrings */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json.xcstrings; path = Localizable.xcstrings; sourceTree = "<group>"; };
 		D37B1BF92B07E21E00FE0C89 /* MainVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainVC.swift; sourceTree = "<group>"; };
-		D37B1BFA2B07E21E00FE0C89 /* MainVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainVC.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,7 +67,7 @@
 				D37B1BF12B07E17800FE0C89 /* LocalizationTest.entitlements */,
 				D37B1BF72B07E1A900FE0C89 /* Localizable.xcstrings */,
 				D37B1BF92B07E21E00FE0C89 /* MainVC.swift */,
-				D37B1BFA2B07E21E00FE0C89 /* MainVC.xib */,
+				D32F8F7F2B2BB3E000E95630 /* MainVC.xib */,
 				D32F8F7A2B2BAF6B00E95630 /* Main2VC.h */,
 				D32F8F7B2B2BAF6B00E95630 /* Main2VC.m */,
 				D32F8F792B2BAF6A00E95630 /* LocalizationTest-Bridging-Header.h */,
@@ -135,7 +136,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D37B1BED2B07E17800FE0C89 /* Assets.xcassets in Resources */,
-				D37B1BFC2B07E21E00FE0C89 /* MainVC.xib in Resources */,
+				D32F8F7D2B2BB3E000E95630 /* MainVC.xib in Resources */,
 				D37B1BF02B07E17800FE0C89 /* MainMenu.xib in Resources */,
 				D37B1BF82B07E1A900FE0C89 /* Localizable.xcstrings in Resources */,
 			);
@@ -157,6 +158,15 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
+		D32F8F7F2B2BB3E000E95630 /* MainVC.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D32F8F7E2B2BB3E000E95630 /* Base */,
+				D32F8F802B2BB3E000E95630 /* mul */,
+			);
+			name = MainVC.xib;
+			sourceTree = "<group>";
+		};
 		D37B1BEE2B07E17800FE0C89 /* MainMenu.xib */ = {
 			isa = PBXVariantGroup;
 			children = (
