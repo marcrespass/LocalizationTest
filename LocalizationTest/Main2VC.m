@@ -60,4 +60,20 @@
     self.localizedField5.stringValue = string5;
 }
 
+- (IBAction)toggleZero1:(NSButton *)sender;
+{
+    NSInteger none = 0;
+    NSString *string1 = NSLocalizedString(@"There are %lld fruit1", @"");
+    self.localizedField1.stringValue = [NSString stringWithFormat:string1, none];
+    sender.action = @selector(toggleZero2:);
+}
+
+- (IBAction)toggleZero2:(NSButton *)sender;
+{
+    NSInteger none = 1;
+    NSString *string1 = NSLocalizedString(@"There are %lld fruit1", @"");
+    self.localizedField1.stringValue = [NSString stringWithFormat:string1, none];
+    sender.action = @selector(toggleZero1:);
+}
+
 @end
